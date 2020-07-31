@@ -2,6 +2,7 @@ plugins {
     kotlin("jvm") version "1.3.72"
     id("org.jetbrains.kotlin.plugin.spring") version "1.3.72"
     id("org.springframework.boot") version "2.3.2.RELEASE"
+    id("com.google.cloud.tools.jib") version "2.4.0"
 }
 
 group = "org.gsdd"
